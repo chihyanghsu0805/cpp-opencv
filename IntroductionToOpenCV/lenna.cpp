@@ -7,7 +7,8 @@
 
 int main(int argc, char** argv) {
   cv::Mat image;
-  image = cv::imread("C:/chihyanghsu/cpp-opencv/lenna.png");
+  image =
+      cv::imread("C:/chihyanghsu/cpp-opencv/IntroductionToOpenCV/lenna.png");
 
   if (!image.data) {
     printf("No image data \n");
